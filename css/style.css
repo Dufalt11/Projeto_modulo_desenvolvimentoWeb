@@ -8,5 +8,26 @@ body{
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+  align-items:  center;
+}
+
+.content_box{
+    border: 1px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+    border: 1px solid salmon;
+}
+
+.corpo_site-{
+    border: 1px solid aqua;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 
 }
